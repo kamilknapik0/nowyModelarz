@@ -71,7 +71,7 @@
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Location = new System.Drawing.Point(12, 56);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(264, 356);
+            this.panel2.Size = new System.Drawing.Size(264, 296);
             this.panel2.TabIndex = 1;
             // 
             // listBox1
@@ -85,7 +85,7 @@
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(8, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(249, 324);
+            this.listBox1.Size = new System.Drawing.Size(249, 267);
             this.listBox1.TabIndex = 0;
             // 
             // PodgladWizyt
@@ -93,10 +93,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(288, 424);
+            this.ClientSize = new System.Drawing.Size(288, 363);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(304, 402);
+            this.MinimumSize = new System.Drawing.Size(304, 402);
             this.Name = "PodgladWizyt";
             this.Text = "PodgladWizyt";
             this.panel1.ResumeLayout(false);

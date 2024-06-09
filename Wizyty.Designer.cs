@@ -57,7 +57,7 @@
             this.flowLayoutPanel1.Controls.Add(this.guna2Button1);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(229, 265);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(192, 265);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -69,7 +69,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 104);
+            this.panel1.Size = new System.Drawing.Size(187, 104);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -144,7 +144,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(3, 113);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 90);
+            this.panel3.Size = new System.Drawing.Size(187, 90);
             this.panel3.TabIndex = 2;
             // 
             // dateTimePicker2
@@ -152,7 +152,7 @@
             this.dateTimePicker2.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dateTimePicker2.Location = new System.Drawing.Point(3, 56);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 28);
+            this.dateTimePicker2.Size = new System.Drawing.Size(116, 28);
             this.dateTimePicker2.TabIndex = 1;
             // 
             // dateTimePicker1
@@ -160,7 +160,7 @@
             this.dateTimePicker1.Font = new System.Drawing.Font("Open Sans Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dateTimePicker1.Location = new System.Drawing.Point(3, 26);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 28);
+            this.dateTimePicker1.Size = new System.Drawing.Size(116, 28);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // label3
@@ -252,11 +252,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(253, 285);
+            this.ClientSize = new System.Drawing.Size(216, 285);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(232, 324);
+            this.MinimumSize = new System.Drawing.Size(232, 324);
             this.Name = "Wizyty";
             this.Text = "Dodaj wizytę";
             this.flowLayoutPanel1.ResumeLayout(false);

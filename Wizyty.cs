@@ -42,6 +42,12 @@ namespace Modelarz
             String data = dateTimePicker1.Value.ToString("dd-MM-yyyy");
             String godzina = dateTimePicker2.Value.ToString("HH:mm");
 
+            if (string.IsNullOrWhiteSpace(imie) || string.IsNullOrWhiteSpace(nazwisko))
+            {
+                MessageBox.Show("Wszystkie pola muszą być wypełnione");
+                return;
+            }
+
             for (int i = 0; i < Home.dataArray.GetLength(0); i++)
             {
                 if (Home.dataArray[i, 0].Equals(data))
