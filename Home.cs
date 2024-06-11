@@ -106,8 +106,14 @@ namespace Modelarz
         {
             foreach (Control control in tableLayoutPanel1.Controls)
             {
+
                 if (control is Label label && label.Text != "")
                 {
+                    if(label.Name == "labelMon" || label.Name == "labelTue" || label.Name == "labelWed" || label.Name == "labelThur" || label.Name == "labelFri" || label.Name == "labelSat" || label.Name == "labelSun")
+                    {
+                        continue;
+                    }
+
                     label.Click += (sender, e) =>
                     {
                         Label clickedLabel = sender as Label;
